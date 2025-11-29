@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Laurel's Blog
+title: Laurel's Lens
 ---
 
-Welcome to my blog!
+hello & welcome to my blog :)
