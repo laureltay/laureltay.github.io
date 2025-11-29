@@ -1,0 +1,42 @@
+title: "Laurel's Lens"
+email: ""
+description: "Reflections, stories, and little windows into my life."
+baseurl: ""
+url: "https://laureltay.github.io"
+
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+navigation:
+  - title: "Blog"
+    url: /
+  - title: "Contact"
+    url: /contact/
+  - title: "Work"
+    url: /work/
+  - title: "Shop"
+    url: /shop/
+
+author:
+  name: "Laurel Tay"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "A space for stories, reflections, faith, and growth."
+
+# Layout defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: false
+
+# Enable comments if needed later
+comments:
+  provider: false
