@@ -15,6 +15,10 @@ function Home() {
     <div className="container">
       <div className="blog-header">
         <h1 className="page-title">Blog</h1>
+        <p className="blog-description">
+          Welcome! This is where I share my thoughts, projects, and learnings.
+          Feel free to explore and reach out if you'd like to connect.
+        </p>
       </div>
 
       <div className="posts-list">

@@ -7,6 +7,13 @@ export const posts = [
     excerpt: 'This is my first blog post using React and GitHub Pages. Learn how I set up this simple, clean blog to share my thoughts and projects.',
   },
   {
+    slug: 'how-to-add-images',
+    title: 'How to Add Images to Your Posts',
+    date: '2025-01-04',
+    category: 'Tutorial',
+    excerpt: 'Learn how to add beautiful images to your blog posts using markdown. Includes best practices for image optimization and accessibility.',
+  },
+  {
     slug: 'how-to-write-posts',
     title: 'How to Write Blog Posts in Markdown',
     date: '2025-01-03',

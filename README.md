@@ -115,6 +115,33 @@ Edit files in `src/components/` and `src/pages/` to change the structure and beh
 
 Edit `src/components/Header.jsx` to change the site title.
 
+### Customize Blog Description
+
+Edit the blog description in `src/pages/Home.jsx`:
+
+```javascript
+<p className="blog-description">
+  Your custom description here...
+</p>
+```
+
+### Add Images to Posts
+
+**Step 1:** Create the images directory and add your image:
+
+```bash
+mkdir -p public/images
+# Add your images to public/images/
+```
+
+**Step 2:** Reference the image in your markdown:
+
+```markdown
+![Alt text description](/images/your-image.jpg)
+```
+
+Images will automatically resize to fit the content width with rounded corners.
+
 ## Build for Production
 
 ```bash
