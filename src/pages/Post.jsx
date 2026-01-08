@@ -21,8 +21,7 @@ function Post() {
     const date = new Date(dateString)
     return date.toLocaleDateString('en-US', {
       month: 'short',
-      day: 'numeric',
-      year: 'numeric'
+      day: 'numeric'
     })
   }
 
@@ -38,12 +37,10 @@ function Post() {
     <article className="post">
       <div className="container">
         <header className="post-header">
-          <div className="post-meta">
-            <span className="post-category">{post.category}</span>
-            <span className="post-date">{formatDate(post.date)}</span>
+          <div className="post-byline">
+            {formatDate(post.date)} • Written By Laurel Tay
           </div>
           <h1 className="post-title">{post.title}</h1>
-          <p className="post-excerpt">{post.excerpt}</p>
         </header>
 
         <div className="post-content">

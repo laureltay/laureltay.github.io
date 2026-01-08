@@ -6,10 +6,10 @@ function Header() {
       <div className="container">
         <div className="header-content">
           <h1 className="site-title">
-            <Link to="/">testing new name</Link>
+            <Link to="/">Laurel's Lens</Link>
           </h1>
           <nav className="site-nav">
-            <Link to="/">Home</Link>
+            <Link to="/">Collected Thoughts</Link>
           </nav>
         </div>
       </div>

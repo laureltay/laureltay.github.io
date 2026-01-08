@@ -43,7 +43,8 @@ public/posts/my-new-post.md
   title: 'My New Post',
   date: '2025-01-05',
   category: 'Tutorial',
-  excerpt: 'A short description of your post'
+  excerpt: 'A short description of your post',
+  featuredImage: '/images/my-post-cover.jpg' // Optional: featured image for the card
 }
 ```
 
@@ -125,19 +126,42 @@ Edit the blog description in `src/pages/Home.jsx`:
 </p>
 ```
 
-### Add Images to Posts
+### Add Featured Images to Post Cards
 
-**Step 1:** Create the images directory and add your image:
+The home page displays posts in a clean card grid. Add featured images to make posts stand out:
+
+**Step 1:** Add your cover image to `public/images/`:
 
 ```bash
-mkdir -p public/images
+public/images/my-post-cover.jpg
+```
+
+**Step 2:** Add the `featuredImage` field to your post in `src/posts.js`:
+
+```javascript
+{
+  slug: 'my-post',
+  title: 'My Post',
+  featuredImage: '/images/my-post-cover.jpg', // This image will display in the card
+  // ... other fields
+}
+```
+
+Recommended size: 1200x800 pixels for best quality on all devices.
+
+### Add Images to Posts
+
+**Step 1:** Add your image to the images directory:
+
+```bash
 # Add your images to public/images/
+public/images/my-photo.jpg
 ```
 
 **Step 2:** Reference the image in your markdown:
 
 ```markdown
-![Alt text description](/images/your-image.jpg)
+![Alt text description](/images/my-photo.jpg)
 ```
 
 Images will automatically resize to fit the content width with rounded corners.
