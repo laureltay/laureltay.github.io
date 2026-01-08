@@ -12,6 +12,5 @@ export const posts = [
     title: 'Begin Again',
     date: '2025-01-05',
     category: 'Thoughts',
-    excerpt: 'A short description of your post'
   },
 ]
