@@ -5,7 +5,7 @@ export const posts = [
     date: '2025-01-05',
     category: 'Thoughts',
     excerpt: '',
-    featuredImage: 'public/images/hero.jpg',
+    featuredImage: '/images/hero.JPG',
   },
   {
     slug: 'beginagain',
