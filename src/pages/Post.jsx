@@ -36,6 +36,12 @@ function Post() {
   return (
     <article className="post">
       <div className="container">
+        {post.featuredImage && (
+          <div className="post-featured-image">
+            <img src={post.featuredImage} alt={post.title} />
+          </div>
+        )}
+
         <header className="post-header">
           <div className="post-byline">
             {formatDate(post.date)} • Written By Laurel Tay

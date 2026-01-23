@@ -135,6 +135,18 @@
   padding: 40px 0;
 }
 
+.post-featured-image {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.post-featured-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
 .post-header {
   margin-bottom: 16px;
   max-width: 1200px;
@@ -281,5 +293,13 @@
 
   .post-byline {
     margin-bottom: 24px;
+  }
+
+  .post-featured-image {
+    margin-bottom: 32px;
+  }
+
+  .post-featured-image img {
+    height: 300px;
   }
 }
