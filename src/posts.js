@@ -17,7 +17,7 @@ export const posts = [
   {
     slug: 'timetobreathe',
     title: 'A Break without a Break',
-    date: '2025-01-023',
+    date: '2025-01-23',
     category: 'Thoughts',
     featuredImage: '/images/breathe.JPG',
   },
