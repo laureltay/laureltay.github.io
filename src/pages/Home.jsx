@@ -14,7 +14,7 @@ function Home() {
   return (
     <div className="container">
       <div className="posts-grid">
-        {posts.map((post) => (
+        {[...posts].sort((a, b) => new Date(a.date) - new Date(b.date)).map((post) => (
           <article key={post.slug} className="post-card">
             {post.featuredImage && (
               <Link to={`/post/${post.slug}`} className="post-card-image-link">
