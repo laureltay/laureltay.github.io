@@ -1,5 +1,12 @@
 export const posts = [
   {
+    slug: 'dissonanceofbeing',
+    title: 'The Dissonance of Being',
+    date: '2026-03-29',
+    category: 'Thoughts',
+    featuredImage: '/images/dissonanceofbeing.JPG',
+  },
+  {
     slug: 'ReadMe',
     title: 'ReadMe',
     date: '2026-01-03',

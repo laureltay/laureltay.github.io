@@ -29,6 +29,9 @@ function Home() {
               <h2 className="post-card-title">
                 <Link to={`/post/${post.slug}`}>{post.title}</Link>
               </h2>
+              {post.date && (
+                <p className="post-card-date">{formatDate(post.date)}</p>
+              )}
               {post.excerpt && (
                 <p className="post-card-excerpt">{post.excerpt}</p>
               )}
