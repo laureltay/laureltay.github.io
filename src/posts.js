@@ -40,6 +40,6 @@ export const posts = [
     title: 'Worth It Meh?',
     date: '2026-05-27',
     category: 'Thoughts',
-    featuredImage: '/images/worthitmeh.JPG',
+    featuredImage: '/images/worthitmeh.jpeg',
   },
 ]
