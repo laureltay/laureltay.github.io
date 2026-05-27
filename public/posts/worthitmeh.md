@@ -8,4 +8,4 @@ Ultimately, I (fearfully) took that step of faith, trusting that the process of 
 
 I know the next four years will be a whole journey of its own. But more than anything, these past four years gave me immense clarity. It gave me the space to grow up, to make mistakes, to move across the world and build a life independently, to meet people who challenged the way I think. Somewhere along the way, I stopped pursuing medicine simply because it was a childhood dream or the “smart” path. I chose it again and again with full awareness of what it asks of me.
  
-I know that after everything, It was worth every _“wah, so long, worth it meh?”_
+I know that after everything, it was worth every _“wah, so long, worth it meh?”_
