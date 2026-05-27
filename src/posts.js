@@ -35,4 +35,11 @@ export const posts = [
     category: 'Thoughts',
     featuredImage: '/images/wintersunset.JPG',
   },
+  {
+    slug: 'worthitmeh',
+    title: 'Worth It Meh?',
+    date: '2026-05-27',
+    category: 'Thoughts',
+    featuredImage: '/images/worthitmeh.JPG',
+  },
 ]
