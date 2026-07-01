@@ -11,10 +11,12 @@ function Home() {
     })
   }
 
+  const thoughts = posts.filter((post) => post.section !== 'visual-medicine')
+
   return (
     <div className="container">
       <div className="posts-grid">
-        {[...posts].sort((a, b) => new Date(b.date) - new Date(a.date)).map((post) => (
+        {[...thoughts].sort((a, b) => new Date(b.date) - new Date(a.date)).map((post) => (
           <article key={post.slug} className="post-card">
             {post.featuredImage && (
               <Link to={`/post/${post.slug}`} className="post-card-image-link">

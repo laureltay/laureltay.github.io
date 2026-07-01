@@ -37,7 +37,7 @@ function Post() {
     <article className="post">
       <div className="container">
         {post.featuredImage && (
-          <div className="post-featured-image">
+          <div className={`post-featured-image${post.imageFit === 'contain' ? ' contain' : ''}`}>
             <img src={post.featuredImage} alt={post.title} />
           </div>
         )}
