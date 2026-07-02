@@ -49,29 +49,27 @@ export const posts = [
     featuredImage: '/images/worthitmeh.jpeg',
   },
 
-  // ── Visual Medicine ────────────────────────────────────────────────
-  // Explorations of data, AI, and design in medicine.
-  // Add new entries here with section: 'visual-medicine'. An optional `tag`
-  // (e.g. 'Clinical AI', 'Health Equity') shows as a small label on the card.
-  // Use imageFit: 'contain' for charts so they aren't cropped like photos.
+  // ── Healthcare: Visualised ─────────────────────────────────────────
+  // Each post takes one dataset and tells its story through clear visuals.
+  // Add entries here with section: 'visual-medicine'. An optional `tag` shows
+  // as a small label on the card. Use imageFit: 'contain' for charts so they
+  // aren't cropped like photos.
   {
-    slug: 'life-expectancy',
-    title: 'Where You’re Born Can Cost You Three Decades of Life',
-    date: '2026-06-30',
-    tag: 'Health Equity',
+    slug: 'eldercare',
+    title: 'Mapping Singapore’s Eldercare Network',
+    date: '2026-07-02',
+    tag: 'Ageing',
     section: 'visual-medicine',
     excerpt:
-      'A single number — life expectancy at birth — swings by thirty years across countries. One chart on what that gap really measures.',
-    featuredImage: '/images/life-expectancy-gap.png',
+      'One open dataset of 133 eldercare facilities: what kinds of care exist, who runs them, and where they cluster across the island.',
+    featuredImage: '/images/eldercare-map.png',
     imageFit: 'contain',
   },
 ]
 
-// The brand statement shown at the top of the Visual Medicine section.
+// The brand statement shown at the top of the Healthcare: Visualised section.
 export const visualMedicineIntro = {
-  title: 'Visual Medicine',
+  title: 'Healthcare: Visualised',
   tagline:
-    'Exploring how data, AI, and design can make medicine clearer, safer, and more accessible.',
-  blurb:
-    'A future physician’s notebook on clinical AI, health equity, and medical data storytelling.',
+    'One healthcare dataset at a time: clear, effective visuals, and the story in the numbers.',
 }

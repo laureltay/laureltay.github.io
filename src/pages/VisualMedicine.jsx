@@ -20,7 +20,6 @@ function VisualMedicine() {
       <section className="section-intro">
         <h1 className="section-intro-title">{visualMedicineIntro.title}</h1>
         <p className="section-intro-tagline">{visualMedicineIntro.tagline}</p>
-        <p className="section-intro-blurb">{visualMedicineIntro.blurb}</p>
       </section>
 
       {entries.length > 0 && (

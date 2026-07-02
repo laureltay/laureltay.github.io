@@ -14,7 +14,7 @@ function App() {
         <main className="site-content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/visual-medicine" element={<VisualMedicine />} />
+            <Route path="/healthcare-visualised" element={<VisualMedicine />} />
             <Route path="/post/:slug" element={<Post />} />
           </Routes>
         </main>

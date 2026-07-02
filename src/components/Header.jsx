@@ -10,7 +10,7 @@ function Header() {
           </h1>
           <nav className="site-nav">
             <NavLink to="/" end>Collected Thoughts</NavLink>
-            <NavLink to="/visual-medicine">Visual Medicine</NavLink>
+            <NavLink to="/healthcare-visualised">Healthcare: Visualised</NavLink>
           </nav>
         </div>
       </div>
