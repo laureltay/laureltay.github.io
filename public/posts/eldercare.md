@@ -39,4 +39,4 @@ Zooming to postal sectors, the densest are mature neighbourhoods like Ang Mo Kio
 
 ---
 
-*Data: [Eldercare Services, data.gov.sg](https://data.gov.sg/). [View the notebook →](https://github.com/laureltay9/laureltay.github.io/blob/main/notebooks/eldercare.ipynb)*
+*Data: [Eldercare Services, data.gov.sg](https://data.gov.sg/). [View the notebook →](https://github.com/laureltay/laureltay.github.io/blob/main/notebooks/eldercare.ipynb)*
