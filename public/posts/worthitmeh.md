@@ -9,33 +9,3 @@ Ultimately, I (fearfully) took that step of faith, trusting that the process of 
 I know the next four years will be a whole other journey of its own. But more than anything, these past four years gave me immense clarity. It gave me the space to grow up, to make mistakes, to move across the world and build a life independently, to meet people who challenged the way I think. Somewhere along the way, I stopped pursuing medicine simply because it was a childhood dream or the _"best"_ path everyone around me claimed it to be. I instead chose it again and again with full awareness of what it asks of me and why I wanted to do it.
  
 I know that after everything, it was worth every _“wah, so long, worth it meh?”_
-
----
-
-**The Road Not Taken**
-
-_Two roads diverged in a yellow wood,  
-And sorry I could not travel both  
-And be one traveler, long I stood  
-And looked down one as far as I could  
-To where it bent in the undergrowth;_
-
-_Then took the other, as just as fair,  
-And having perhaps the better claim,  
-Because it was grassy and wanted wear;  
-Though as for that the passing there  
-Had worn them really about the same,_
-
-_And both that morning equally lay  
-In leaves no step had trodden black.  
-Oh, I kept the first for another day!  
-Yet knowing how way leads on to way,  
-I doubted if I should ever come back._
-
-_I shall be telling this with a sigh  
-Somewhere ages and ages hence:  
-Two roads diverged in a wood, and I—  
-I took the one less traveled by,  
-And that has made all the difference._
-
-— Robert Frost
